@@ -1,11 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:t2t_system/models/path_model.dart';
+import 'package:t2t_system/models/sensors_model.dart';
 import 'package:t2t_system/views/map_view.dart';
 
 void main() {
-  runApp(ChangeNotifierProvider(
-    create: (context) => PathModel(),
+  runApp(MultiProvider(
+    providers: [
+      ChangeNotifierProvider(
+        create: (context) => PathModel(),
+      ),
+      ChangeNotifierProvider(
+        create: (context) => SensorsModel(),
+      ),
+    ],
     child: const MainApp(),
   ));
 }
