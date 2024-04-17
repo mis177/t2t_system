@@ -1,4 +1,4 @@
-![obraz](https://github.com/mis177/t2t_system/assets/56123042/1fdc32c5-bd31-4a95-ae39-09bc2a77ef37)# t2t_system
+# t2t_system
 
 
 ## Features
@@ -20,6 +20,6 @@ Additional option is moving by hinting direction of movement by phone tilt (X ax
 
 ## Screens
 
-![obraz](https://github.com/mis177/t2t_system/assets/56123042/597c74e1-850c-4a3d-b7f4-43e96eb1d009)
 
 
+![obraz](https://github.com/mis177/t2t_system/assets/56123042/6976477f-73fe-404a-89fa-e54f30ec9c0c)
