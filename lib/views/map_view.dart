@@ -16,7 +16,11 @@ class _MapViewState extends State<MapView> {
   List<bool> switchValues = [true, false];
   @override
   void initState() {
-    context.read<SensorsModel>().initSensors();
+    context.read<SensorsModel>().initSensors(() {
+      ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
+        content: Text("Sending Message"),
+      ));
+    });
     super.initState();
   }
 
